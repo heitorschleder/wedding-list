@@ -1,4 +1,5 @@
 <script setup>
+import { ref, watch } from 'vue'
 import { Dialog, DialogPanel, DialogTitle, TransitionRoot, TransitionChild } from '@headlessui/vue'
 import QRCodeVue3 from 'qrcode.vue'
 
@@ -10,16 +11,29 @@ const props = defineProps({
   }
 })
 
+const emit = defineEmits(['close'])
+
+const copied = ref(false)
+
 const copyPixCode = () => {
   if (props.gift) {
     navigator.clipboard.writeText(props.gift.pixCode)
-    alert('Código PIX copiado!')
+    copied.value = true
+    setTimeout(() => {
+      copied.value = false
+    }, 2000) // volta ao normal depois de 2 segundos
   }
 }
+
+// Resetar o botão sempre que abrir um novo modal
+watch(() => props.gift, () => {
+  copied.value = false
+})
 </script>
+
 <template>
   <TransitionRoot appear :show="isOpen" as="template">
-    <Dialog as="div" @close="$emit('close')" class="relative z-10">
+    <Dialog as="div" @close="emit('close')" class="relative z-10">
       <TransitionChild
         as="template"
         enter="duration-300 ease-out"
@@ -69,9 +83,13 @@ const copyPixCode = () => {
                       />
                       <button
                         @click="copyPixCode"
-                        class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                        :class="[
+                          'px-4 py-2 rounded',
+                          copied ? 'bg-blue-300 text-white cursor-default' : 'bg-blue-600 text-white hover:bg-blue-700'
+                        ]"
+                        :disabled="copied"
                       >
-                        Copiar
+                        {{ copied ? 'Copiado' : 'Copiar' }}
                       </button>
                     </div>
                   </div>
@@ -86,7 +104,7 @@ const copyPixCode = () => {
                 <button
                   type="button"
                   class="inline-flex justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200"
-                  @click="$emit('close')"
+                  @click="emit('close')"
                 >
                   Fechar
                 </button>

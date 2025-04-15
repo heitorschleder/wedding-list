@@ -2,6 +2,7 @@
 import DarkSoulsImage from '@/assets/images/darksouls.png'
 import PanelaImage from '@/assets/images/panela.png'
 import CobertaImage from '@/assets/images/coberta.png'
+import ChimaImage from '@/assets/images/chimarrao.png'
 
 const gifts = ref([
   {
@@ -23,6 +24,13 @@ const gifts = ref([
     title: 'Panela de pressão "inexplodível" pros noivos não se matarem',
     price: 459.90,
     image: PanelaImage,
+    pixCode: 'pixcode789'
+  },
+  {
+    id: 4,
+    title: 'Kit Chimarrão pro Noivo',
+    price: 159.36,
+    image: ChimaImage,
     pixCode: 'pixcode789'
   }
 ])
