@@ -1,6 +1,7 @@
 <script setup>
 import DarkSoulsImage from '@/assets/images/darksouls.png'
-import PanelaPressao from '@/assets/images/panela.png'
+import PanelaImage from '@/assets/images/panela.png'
+import CobertaImage from '@/assets/images/coberta.png'
 // adicionar a fonte que a bruna quis @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 // .pinyon-script-regular {
 //   font-family: "Pinyon Script", cursive;
@@ -13,7 +14,7 @@ const gifts = ref([
     id: 1,
     title: 'Edredom para noiva que esta sempre coberta de razão',
     price: 599.90,
-    image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80',
+    image: CobertaImage,
     pixCode: '00020126670014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com0215cafeteira teste52040000530398654040.015802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510br7dCaacm16304338B'
   },
   {
@@ -27,7 +28,7 @@ const gifts = ref([
     id: 3,
     title: 'Panela de pressão "inexplodível" pros noivos não se matarem',
     price: 459.90,
-    image: PanelaPressao,
+    image: PanelaImage,
     pixCode: 'pixcode789'
   }
 ])
