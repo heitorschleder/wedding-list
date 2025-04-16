@@ -3,34 +3,42 @@ import DarkSoulsImage from '@/assets/images/darksouls.png'
 import PanelaImage from '@/assets/images/panela.png'
 import CobertaImage from '@/assets/images/coberta.png'
 import ChimaImage from '@/assets/images/chimarrao.png'
+import GymImage from '@/assets/images/gym.png'
 
 const gifts = ref([
   {
     id: 1,
     title: 'Edredom para noiva que esta sempre coberta de razão',
-    price: 599.90,
+    price: 291.12,
     image: CobertaImage,
     pixCode: '00020126670014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com0215cafeteira teste52040000530398654040.015802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510br7dCaacm16304338B'
   },
   {
     id: 2,
     title: 'DarkSouls III pro noivo não se estressar com a noiva',
-    price: 299.90,
+    price: 171.00,
     image: DarkSoulsImage,
     pixCode: 'FAZOPIXPRABRUNA'
   },
   {
     id: 3,
     title: 'Panela de pressão "inexplodível" pros noivos não se matarem',
-    price: 459.90,
+    price: 242.23,
     image: PanelaImage,
     pixCode: 'pixcode789'
   },
   {
     id: 4,
-    title: 'Kit Chimarrão pro Noivo',
+    title: 'Kit Chimarrão para o casal',
     price: 159.36,
     image: ChimaImage,
+    pixCode: 'pixcode789'
+  },
+  {
+    id: 5,
+    title: '3 Meses de academia para gastar todas as calorias do casamento',
+    price: 423.71,
+    image: GymImage,
     pixCode: 'pixcode789'
   }
 ])
