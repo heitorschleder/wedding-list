@@ -4,6 +4,7 @@ import PanelaImage from '@/assets/images/panela.png'
 import CobertaImage from '@/assets/images/coberta.png'
 import ChimaImage from '@/assets/images/chimarrao.png'
 import GymImage from '@/assets/images/gym.png'
+import TravelImage from '@/assets/images/travel.png'
 
 const gifts = ref([
   {
@@ -40,6 +41,13 @@ const gifts = ref([
     price: 423.71,
     image: GymImage,
     pixCode: 'pixcode789'
+  },
+  {
+    id: 6,
+    title: 'Auxilio viagem',
+    price: 203.40,
+    image: TravelImage,
+    pixCode: 'queroviajar'
   }
 ])
 
