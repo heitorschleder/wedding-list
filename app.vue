@@ -66,44 +66,40 @@ const closeGiftModal = () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <header class="bg-white shadow">
-      <div class="text-center max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-        <h1 class="text-5xl font-bold text-gray-900">
+  <div class="min-h-screen bg-[#E7E2CC]">
+    <header class="text-white">
+      <div class="text-center text-[#873f2B] max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <h1 class="text-5xl font-bold">
           Lista de Presentes de Heitor e Bruna
         </h1>
-        <p class="mt-2 text-gray-600">
+        <p class="mt-2">
           Agradecemos seu carinho! Escolha um presente abaixo.
         </p>
       </div>
     </header>
-
+    <div class="flex justify-center items-center my-4">
+      <img src="@/assets/images/flor2.webp" alt="Flor decorativa" class="w-84 h-24 mt-0 mb-0" />
+    </div>
     <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <GiftCard
-          v-for="gift in gifts"
-          :key="gift.id"
-          :gift="gift"
-          @click="openGiftModal(gift)"
-        />
+        <GiftCard v-for="gift in gifts" :key="gift.id" :gift="gift" @click="openGiftModal(gift)" />
       </div>
 
-      <GiftModal
-        v-if="isModalOpen"
-        :is-open="isModalOpen"
-        :gift="selectedGift"
-        @close="closeGiftModal"
-      />
+      <GiftModal v-if="isModalOpen" :is-open="isModalOpen" :gift="selectedGift" @close="closeGiftModal" />
+      <div class="flex justify-center items-center my-4">
+      <img src="@/assets/images/flor2.webp" alt="Flor decorativa" class="w-84 h-24 mt-0 mb-0" />
+    </div>
     </main>
+   
   </div>
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-h1{
+
+h1 {
   font-family: 'Pinyon Script', cursive;
   font-weight: 400;
   font-style: normal;
 }
-
 </style>

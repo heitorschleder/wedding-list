@@ -95,7 +95,7 @@ watch(() => props.gift, () => {
                   </div>
 
                   <p class="mt-4 text-sm text-gray-500">
-                    Obrigado por contribuir com nosso sonho!
+                    Obrigado por fazer parte da nossa história!
                   </p>
                 </div>
               </div>
