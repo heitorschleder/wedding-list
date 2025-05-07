@@ -12,42 +12,42 @@ const gifts = ref([
     title: 'Edredom para noiva que esta sempre coberta de razão',
     price: 291.12,
     image: CobertaImage,
-    pixCode: '00020126670014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com0215cafeteira teste52040000530398654040.015802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510br7dCaacm16304338B'
+    pixCode: '00020126480014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com5204000053039865406291.125802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510GCvuqp1X2b630470CF'
   },
   {
     id: 2,
     title: 'DarkSouls III pro noivo não se estressar com a noiva',
     price: 171.00,
     image: DarkSoulsImage,
-    pixCode: 'FAZOPIXPRABRUNA'
+    pixCode: '00020126480014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com5204000053039865406171.005802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510xbw0D71mbk63049DD5'
   },
   {
     id: 3,
     title: 'Panela de pressão "inexplodível" pros noivos não se matarem',
     price: 242.23,
     image: PanelaImage,
-    pixCode: 'pixcode789'
+    pixCode: '00020126480014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com5204000053039865406242.235802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510AC64AV700M630426DF'
   },
   {
     id: 4,
     title: 'Kit Chimarrão para o casal',
     price: 159.36,
     image: ChimaImage,
-    pixCode: 'pixcode789'
+    pixCode: '00020126480014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com5204000053039865406159.365802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510BLj7vCPEWQ630445B4'
   },
   {
     id: 5,
     title: '3 Meses de academia para gastar todas as calorias do casamento',
     price: 423.71,
     image: GymImage,
-    pixCode: 'pixcode789'
+    pixCode: '00020126480014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com5204000053039865406423.715802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510QNPtVphJwP6304F412'
   },
   {
     id: 6,
     title: 'Auxilio viagem',
     price: 203.40,
     image: TravelImage,
-    pixCode: 'queroviajar'
+    pixCode: '00020126480014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com5204000053039865406203.405802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510Jun0ok0McB6304C689'
   }
 ])
 
