@@ -5,6 +5,13 @@ import CobertaImage from '@/assets/images/coberta.png'
 import ChimaImage from '@/assets/images/chimarrao.png'
 import GymImage from '@/assets/images/gym.png'
 import TravelImage from '@/assets/images/travel.png'
+import Especial from '@/assets/images/especial.png'
+import Helmet from '@/assets/images/helmet.png'
+import Kitchen from '@/assets/images/kitchen.png'
+import Lingerie from '@/assets/images/lingerie.png'
+import Stick from '@/assets/images/stick.png'
+
+
 
 const gifts = ref([
   {
@@ -48,6 +55,41 @@ const gifts = ref([
     price: 203.40,
     image: TravelImage,
     pixCode: '00020126480014BR.GOV.BCB.PIX0126heitorschleder33@gmail.com5204000053039865406203.405802BR5925Heitor de Oliveira Schled6009SAO PAULO62140510Jun0ok0McB6304C689'
+  },
+  {
+    id: 7,
+    title: 'Renovação do estoque de conchinhas para venda de artes na praia',
+    price: 22.40,
+    image: Especial,
+    pixCode: '000000'
+  },
+  {
+    id: 8,
+    title: 'Curso de Culinária para Noiva',
+    price: 42.40,
+    image: Kitchen,
+    pixCode: '000000'
+  },
+  {
+    id: 9,
+    title: 'Lingerie para noiva usar na Lua de Mel',
+    price: 232.40,
+    image: Lingerie,
+    pixCode: '000000'
+  },
+  {
+    id: 10,
+    title: 'Rolo de Massa para Noiva "educar" o Noivo',
+    price: 49.99,
+    image: Stick,
+    pixCode: '000000'
+  },
+  {
+    id: 11,
+    title: 'Capacete a prova de rolo de massa',
+    price: 39.98,
+    image: Helmet,
+    pixCode: '000000'
   }
 ])
 
