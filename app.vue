@@ -59,37 +59,37 @@ const gifts = ref([
   {
     id: 7,
     title: 'Renovação do estoque de conchinhas para venda de artes na praia',
-    price: 22.40,
+    price: 89.62,
     image: Especial,
-    pixCode: '000000'
+    pixCode: '00020126580014BR.GOV.BCB.PIX0136e0ec7723-68aa-44d4-bb26-7102480094fe520400005303986540589.625802BR5918Bruna Cansian Knop6009SAO PAULO61080540900062110507conchas6304D9E7'
   },
   {
     id: 8,
     title: 'Curso de Culinária para Noiva',
-    price: 42.40,
+    price: 245.50,
     image: Kitchen,
-    pixCode: '000000'
+    pixCode: '00020126580014BR.GOV.BCB.PIX0136e0ec7723-68aa-44d4-bb26-7102480094fe5204000053039865406245.505802BR5918Bruna Cansian Knop6009SAO PAULO61080540900062090505curso63040132'
   },
   {
     id: 9,
     title: 'Lingerie para noiva usar na Lua de Mel',
-    price: 232.40,
+    price: 119.80,
     image: Lingerie,
-    pixCode: '000000'
+    pixCode: '00020126580014BR.GOV.BCB.PIX0136e0ec7723-68aa-44d4-bb26-7102480094fe5204000053039865406119.805802BR5918Bruna Cansian Knop6009SAO PAULO61080540900062120508lingerie6304E534'
   },
   {
     id: 10,
     title: 'Rolo de Massa para Noiva "educar" o Noivo',
-    price: 49.99,
+    price: 77.43,
     image: Stick,
-    pixCode: '000000'
+    pixCode: '00020126580014BR.GOV.BCB.PIX0136e0ec7723-68aa-44d4-bb26-7102480094fe520400005303986540577.435802BR5918Bruna Cansian Knop6009SAO PAULO61080540900062150511rolodemassa63042A3D'
   },
   {
     id: 11,
     title: 'Capacete a prova de rolo de massa',
-    price: 39.98,
+    price: 100.00,
     image: Helmet,
-    pixCode: '000000'
+    pixCode: '00020126580014BR.GOV.BCB.PIX0136e0ec7723-68aa-44d4-bb26-7102480094fe5204000053039865406100.005802BR5918Bruna Cansian Knop6009SAO PAULO61080540900062120508capacete630475FC'
   }
 ])
 
