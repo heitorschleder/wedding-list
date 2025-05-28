@@ -79,7 +79,7 @@ watch(() => props.gift, () => {
                         type="text"
                         :value="gift.pixCode"
                         readonly
-                        class="flex-1 p-2 border rounded"
+                        class="flex-1 p-2 border rounded w-12"
                       />
                       <button
                         @click="copyPixCode"
