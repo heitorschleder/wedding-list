@@ -108,7 +108,7 @@ const closeGiftModal = () => {
 </script>
 
 <template>
-  <AppHead />
+  <AppHead image="~/public/images/logohb.jpg" />
   <div class="min-h-screen bg-[#f3f2ea]">
     <header class="text-white">
       <div class="text-center text-[#C45824] max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">

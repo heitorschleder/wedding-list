@@ -12,7 +12,7 @@ const props = defineProps({
   },
   image: {
     type: String,
-    default: '~/public/logohb.jpg'
+    default: '~/public/images/logohb.jpg'
   },
   url: {
     type:String,
