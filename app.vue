@@ -114,7 +114,7 @@ useHead({
     { property: "og:type", content: "website" },
     {
       property: 'og:image',
-      content: 'https://wedding-list-phi.vercel.app/images/heitorbh.jpg'
+      content: 'https://i.imgur.com/oPvxa2E.jpeg'
     },
   ],
   link: [
