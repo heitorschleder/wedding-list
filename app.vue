@@ -116,7 +116,7 @@ const closeGiftModal = () => {
           Lista de Presentes de Heitor e Bruna
         </h1>
         <p class="mt-2">
-          Agradecemos seu carinho! Escolha um presente abaixo.
+          Não sei o que lá com carinho!
         </p>
       </div>
     </header>
