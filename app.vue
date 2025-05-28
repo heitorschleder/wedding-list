@@ -126,12 +126,12 @@ useHead({
 <template>
   <div class="min-h-screen bg-[#f3f2ea]">
     <header class="text-white">
-      <div class="text-center text-[#C45824] max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+      <div class="text-center text-[#53682F] max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <h1 class="text-5xl font-bold">
           Lista de Presentes de Heitor e Bruna
         </h1>
         <p class="mt-2">
-          Não sei o que lá com carinho!
+          Queridos familiares e amigos para nós a presença de vocês nesse dia tão especial é o maior presente que poderíamos receber. Mas se vocês também quiserem nos presentear segue a lista abaixo.
         </p>
       </div>
     </header>
