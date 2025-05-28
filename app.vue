@@ -11,8 +11,6 @@ import Kitchen from '@/assets/images/kitchen.png'
 import Lingerie from '@/assets/images/lingerie.png'
 import Stick from '@/assets/images/stick.png'
 
-import AppHead from './components/AppHead.vue'
-
 const gifts = ref([
   {
     id: 1,
@@ -105,10 +103,27 @@ const closeGiftModal = () => {
   isModalOpen.value = false
   selectedGift.value = null
 }
+
+useHead({
+  title: "Lista de Presentes",
+  meta: [
+    { name: "description", content: "Essa é a nossa lista de presentes de casamento — fique à vontade pra escolher com carinho!" },
+    { name: "author", content: "Heitor Schleder" },
+    { property: "og:title", content: "Lista de Presentes" },
+    { property: "og:description", content: "Essa é a nossa lista de presentes de casamento — fique à vontade pra escolher com carinho!" },
+    { property: "og:type", content: "website" },
+    {
+      property: 'og:image',
+      content: '/images/heitorbh.jpg'
+    },
+  ],
+  link: [
+    { rel: 'icon', href: '/favicon.ico'},
+    ,]
+});
 </script>
 
 <template>
-  <AppHead image="~/public/images/logohb.jpg" />
   <div class="min-h-screen bg-[#f3f2ea]">
     <header class="text-white">
       <div class="text-center text-[#C45824] max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
