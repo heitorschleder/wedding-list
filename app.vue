@@ -136,7 +136,7 @@ useHead({
       </div>
     </header>
     <div class="flex justify-center items-center my-4">
-      <img src="@/assets/images/flor2.webp" alt="Flor decorativa" class="w-84 h-24 mt-0 mb-0" />
+      <img src="@/assets/images/flor2.png" alt="Flor decorativa" class="w-84 h-24 mt-0 mb-0" />
     </div>
     <main class="max-w-7xl p-2 mx-auto py-6 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -145,7 +145,7 @@ useHead({
 
       <GiftModal v-if="isModalOpen" :is-open="isModalOpen" :gift="selectedGift" @close="closeGiftModal" />
       <div class="flex justify-center items-center my-4">
-      <img src="@/assets/images/flor2.webp" alt="Flor decorativa" class="w-84 h-24 mt-0 mb-0" />
+      <img src="@/assets/images/flor2.png" alt="Flor decorativa" class="w-84 h-24 mt-0 mb-0" />
     </div>
     </main>
    
