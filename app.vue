@@ -11,7 +11,7 @@ import Kitchen from '@/assets/images/kitchen.png'
 import Lingerie from '@/assets/images/lingerie.png'
 import Stick from '@/assets/images/stick.png'
 
-
+import AppHead from './components/AppHead.vue'
 
 const gifts = ref([
   {
@@ -108,7 +108,8 @@ const closeGiftModal = () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-[#E7E2CC]">
+  <AppHead />
+  <div class="min-h-screen bg-[#f3f2ea]">
     <header class="text-white">
       <div class="text-center text-[#C45824] max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <h1 class="text-5xl font-bold">
