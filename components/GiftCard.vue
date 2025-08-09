@@ -1,11 +1,16 @@
 <template>
   <div @click="$emit('click')"
     class="bg-gray-50 rounded-lg shadow-md overflow-hidden cursor-pointer transform transition hover:scale-105">
-    <!-- Flor após cada linha de 3 cards (ou 2 em md), adaptável -->
     <img :src="gift.image" :alt="gift.title" class="w-full h-48 object-cover">
     <div class="p-4 text-[#53682F]">
       <h3 class="text-lg font-semibold ">{{ gift.title }}</h3>
-      <p class=" mt-2">R$ {{ gift.price.toFixed(2) }}</p>
+      <div class="flex justify-between items-center">
+        <p class=" mt-2">R$ {{ gift.price.toFixed(2) }}</p>
+        <button class="mt-4 px-4 py-2 bg-[#A6C34C] text-white rounded hover:bg-[#8AA03B] transition"
+          @click.stop="$emit('open-modal', gift)">
+          Comprar agora!
+        </button>
+      </div>
     </div>
   </div>
 </template>
