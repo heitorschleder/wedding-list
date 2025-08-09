@@ -7,7 +7,7 @@
       <div class="flex justify-between items-center">
         <p class=" mt-2">R$ {{ gift.price.toFixed(2) }}</p>
         <button class="mt-4 px-4 py-2 bg-[#A6C34C] text-white rounded hover:bg-[#8AA03B] transition"
-          @click.stop="$emit('open-modal', gift)">
+          @click.stop="$emit('click')">
           Comprar agora!
         </button>
       </div>
